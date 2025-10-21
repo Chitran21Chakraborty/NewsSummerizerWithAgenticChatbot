@@ -24,27 +24,12 @@ Built on top of Streamlit and modular components (GroqLLM, GraphBuilder, custom 
 
 🔧 Modular Design – Easily extend with new use cases or LLM backends.
 
-📂 Project Structure . ├── src/ │ └── langgraphagenticai/ │ ├── ui/ │ │ └── streamlitui/ │ │ ├── loadui.py │ │ └── display_result.py │ ├── LLMS/ │ │ └── groqllm.py │ └── graph/ │ └── graph_builder.py ├── app.py └── README.md
 
-⚙️ Installation
-
-Clone the repository:
-
-git clone https://github.com/yourusername/langgraph-agenticai.git cd langgraph-agenticai
-
-Create and activate a virtual environment:
-
-python -m venv .venv source .venv/bin/activate # Mac/Linux .venv\Scripts\activate # Windows
-
-Install dependencies:
-
-pip install -r requirements.txt
 
 ▶️ Running the App
 
-Launch the Streamlit app:
-
 streamlit run app.py
+
 
 📝 Usage
 
@@ -65,6 +50,7 @@ Ask questions or interact with the chatbot.
 
 Responses are powered by GroqLLM + GraphBuilder workflows.
 
+
 ⚠️ Error Handling
 
 Missing input → "Error: Failed to load user input"
@@ -75,37 +61,6 @@ No use case → "No usecase selected"
 
 Graph error → "Graph setup failed-{error}"
 
-🚀 Roadmap
 
-Add support for more LLM backends (OpenAI, Anthropic, etc.)
 
-Richer news visualization (graphs, categories).
-
-Multi-agent collaboration.
-
-Deploy on cloud platforms (Streamlit Cloud / HuggingFace Spaces).
-
-📖 License
-
-MIT License © 2025
-
-About
-LangGraph AgenticAI is a Streamlit-based application that combines news summarization, web search, and an agentic AI chatbot into a single interface. It uses graph-based reasoning and a configurable LLM backend to deliver concise news insights, real-time web results, and intelligent conversational responses.
-
-Resources
- Readme
- Activity
-Stars
- 0 stars
-Watchers
- 0 watching
-Forks
- 0 forks
-Releases
-No releases published
-Create a new release
-Packages
-No packages published
-Publish your first package
-Footer
 
